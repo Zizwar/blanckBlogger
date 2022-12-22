@@ -1,0 +1,14 @@
+<!-- CANONICAL -->
+<data:blog.url.canonical/>
+
+<!-- HTTP -->
+<data:blog.url.http/>
+
+<!-- HTTPS -->
+<data:blog.url.https/>
+
+<!-- CANONICAL + HTTP -->
+<data:blog.url.canonical.http/>
+
+<!-- CANONICAL + HTTPS -->
+<data:blog.url.canonical.https/>
