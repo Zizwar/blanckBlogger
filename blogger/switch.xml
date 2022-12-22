@@ -1,0 +1,18 @@
+  <b:switch var='data:blog.pageType'>
+
+    <b:case value='item'/>
+      <data:view.title/>
+
+    <b:case value='static_page'/>
+      <data:view.title.escaped/>
+
+    <b:case value='index'/>
+      <b:eval expr='data:blog.pageName ?: data:blog.title'/>
+
+    <b:case value='archive'/>
+      <data:messages.blogArchive/> : <data:blog.pageName/>
+
+    <b:case value='error_page'/>
+      Page 404
+
+  </b:switch>
